@@ -3,4 +3,5 @@ def call(){
                     sh '''trivy image backend > scan1.txt
                     cat scan1.txt
                     '''
+    }
 }
